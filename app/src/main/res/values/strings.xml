@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Code War</string>
+    <string name="text_greeting_name">Hi, Sephie</string>
+    <string name="text_greeting">Welcome!</string>
+    <string name="text_last_transaction">Last Transaction</string>
+    <string name="text_details">Details</string>
+    <string name="text_date">Today, Nov 30</string>
+    <string name="text_topup">Top Up</string>
+    <string name="text_08_00_am">08:00 AM</string>
+    <string name="text_rp_50_000">+Rp 50,000</string>
+    <string name="text_water">Water</string>
+    <string name="text_rp_63_244">-Rp 63,244</string>
+    <string name="pay_bill">Pay Bill</string>
+    <string name="phone">Phone</string>
+    <string name="data">Data</string>
+    <string name="invest">Invest</string>
+    <string name="game">Game</string>
+    <string name="net">Net</string>
+    <string name="pln">PLN</string>
+    <string name="bpjs">BPJS</string>
+    <string name="water">Water</string>
+    <string name="text_pay">Pay</string>
+    <string name="text_top_up">Top up</string>
+    <string name="text_scan">Scan</string>
+
+</resources>

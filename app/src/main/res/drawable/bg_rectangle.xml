@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="#6E5DE7" />
+                    <corners android:radius="12dp" />
+                </shape>
+            </item>
+            <item>
+                <vector
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:width="319dp"
+                    android:height="243dp"
+                    android:viewportWidth="319"
+                    android:viewportHeight="243">
+                    <group>
+                        <clip-path
+                            android:pathData="M307,234.5L16,234.5A11.5,11.5 0,0 1,4.5 223L4.5,12A11.5,11.5 0,0 1,16 0.5L307,0.5A11.5,11.5 0,0 1,318.5 12L318.5,223A11.5,11.5 0,0 1,307 234.5z"/>
+                        <path
+                            android:pathData="M12,228m41,-0a41,41 0,1 1,-82 -0a41,41 0,1 1,82 -0"
+                            android:strokeAlpha="0.2"
+                            android:fillColor="#ffffff"
+                            android:fillAlpha="0.2"/>
+                    </group>
+                </vector>
+            </item>
+            <item>
+                <vector
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:width="315dp"
+                    android:height="235dp"
+                    android:viewportWidth="315"
+                    android:viewportHeight="235">
+                    <group>
+                        <clip-path
+                            android:pathData="M12,0L303,0A12,12 0,0 1,315 12L315,223A12,12 0,0 1,303 235L12,235A12,12 0,0 1,0 223L0,12A12,12 0,0 1,12 0z"/>
+                        <path
+                            android:pathData="M291,33m-50,0a50,50 0,1 1,100 0a50,50 0,1 1,-100 0"
+                            android:strokeAlpha="0.2"
+                            android:fillColor="#ffffff"
+                            android:fillAlpha="0.2"/>
+                    </group>
+                </vector>
+            </item>
+        </layer-list>
+    </item>
+</selector>
