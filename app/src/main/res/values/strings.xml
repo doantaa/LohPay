@@ -22,5 +22,8 @@
     <string name="text_pay">Pay</string>
     <string name="text_top_up">Top up</string>
     <string name="text_scan">Scan</string>
+    <string name="text_name">Hi, Sephie</string>
+    <string name="text_balance_value">Rp 2,000,000</string>
+    <string name="text_pay_bill">Pay bill</string>
 
 </resources>

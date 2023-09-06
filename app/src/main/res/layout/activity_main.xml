@@ -35,17 +35,17 @@
                     app:layout_constraintStart_toStartOf="parent">
 
                     <TextView
-                        style="@style/TextAppearance.Material3.TitleMedium"
+                        android:fontFamily="@font/poppins"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:text="Hi, Sephie"
+                        android:text="@string/text_name"
                         android:textStyle="bold" />
 
                     <TextView
-                        style="@style/TextAppearance.Material3.TitleSmall"
+                        android:fontFamily="@font/poppins"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:text="Wellcome!"
+                        android:text="@string/text_greeting"
                         android:alpha="0.5"/>
                 </LinearLayout>
 
@@ -90,9 +90,10 @@
                     android:id="@+id/tv_balance_money"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Rp 2,000,000"
+                    android:text="@string/text_balance_value"
                     android:textColor="@color/white"
                     android:textSize="30sp"
+                    android:fontFamily="@font/poppins"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -106,7 +107,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="16dp"
-                    android:layout_marginVertical="16dp"
+                    android:paddingBottom="24dp"
                     app:layout_constraintTop_toBottomOf="@id/tv_balance_money">
 
                     <androidx.cardview.widget.CardView
@@ -137,7 +138,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="5dp"
                                 android:fontFamily="@font/poppins"
-                                android:text="Pay"
+                                android:text="@string/text_pay"
                                 android:textAlignment="center"
                                 android:textColor="@color/white"
                                 android:textSize="14sp" />
@@ -228,14 +229,13 @@
 
             <TextView
                 android:id="@+id/tv_paybill"
-                style="@style/TextAppearance.Material3.TitleLarge"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="16dp"
                 android:layout_marginVertical="16dp"
-                android:fontFamily="@font/poppins"
-                android:text="Pay Bill"
-                android:textSize="24sp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="@string/text_pay_bill"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/bg_main"/>
@@ -553,6 +553,7 @@
                 android:layout_height="wrap_content"
                 app:layout_constraintTop_toBottomOf="@id/cl_category_2"
                 android:padding="16dp"
+                android:layout_marginTop="16dp"
                 android:background="@color/background"
                 app:layout_constraintStart_toStartOf="parent">
 
@@ -569,9 +570,9 @@
                         android:layout_height="wrap_content"
                         android:text="@string/text_last_transaction"
                         android:textSize="18sp"
-                        android:fontFamily="@font/poppins"
+                        android:fontFamily="@font/poppins_medium"
+                        android:textStyle="bold"
                         android:textColor="@color/darker_black"
-                        android:textFontWeight="600"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
 
@@ -581,7 +582,6 @@
                         android:layout_marginTop="3dp"
                         android:text="@string/text_details"
                         android:fontFamily="@font/poppins"
-                        android:textFontWeight="600"
                         android:textColor="@color/blue"
                         android:textSize="12sp"
                         app:layout_constraintEnd_toEndOf="parent"
